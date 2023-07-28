@@ -1,5 +1,5 @@
-# Hospitality & Restaurant Starter Kit
-A starter kit for building hospitality and restaraunt-themed websites. Add menus, maps, galleries, pricing, team members and more with this rich starter kit for Apostrophe 3.
+# Marketing Starter Kit
+A starter kit for building marketing-themed websites. Add hero blocks, feature lists, multi-column layouts, pricing, team members and more with this rich starter kit for Apostrophe 3.
 
 ## Get started
 
@@ -14,7 +14,7 @@ node app @apostrophecms/user:add admin admin
 
 Colors, fonts, and other aesthetic variables are set in `modules/asset/ui/src/scss/_theme.scss`. These can be overridden by making changes directly in the `_theme.scss` file.
 
-The hospitality starter kit uses fonts provided by Google. These are imported into the primary layout file in `views/layout.html:19`
+The marketing starter kit uses fonts provided by Google. These are imported into the primary layout file in `views/layout.html:19`
 
 ## Maps and Geocoding
 This project comes with a map widget that geocodes addresses to points on the map. Geocoding is provided by [`node-geocoder`](https://www.npmjs.com/package/node-geocoder). You must configure a geocoding service provider and API key in order to use it. [See a list of geocoding service providers](https://github.com/nchaulet/node-geocoder#geocoder-providers-in-alphabetical-order).
