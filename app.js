@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 require('apostrophe')({
-  shortName: 'starter-kit-hospitality',
+  shortName: 'starter-kit-marketing',
   baseUrl: process.env.APOS_BASE_URL || 'http://localhost:3000',
   nestedModuleSubdirs: true,
   modules: {
