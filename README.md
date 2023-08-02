@@ -1,6 +1,9 @@
 # Marketing Starter Kit
 A starter kit for building marketing-themed websites. Add hero blocks, feature lists, multi-column layouts, pricing, team members, and more with this rich starter kit for Apostrophe 3.
 
+## Demo
+<video src="https://static.apostrophecms.com/apostrophecms/starter-kits/videos/apostrophe-marketing-demo.mp4"></video>
+
 ## Get started
 
 Install dependencies: `npm install`
