@@ -25,7 +25,7 @@ A starter kit for building marketing-themed websites. Add hero blocks, feature l
    ```bash
    node app @apostrophecms/user:add admin admin
    ```
-4. Strat the site using:
+4. Start the site using:
    ``` sh
    npm run dev
    ```
@@ -80,9 +80,9 @@ Run `npm run dev` to build the Apostrophe UI and start the site up. Remember, th
 
 ## Making it your own
 
-This boilerplate is designed so you can install and start running it right away. If you are starting a project that will go into production one day, there are a few things you should be sure to check:
+This starter kit is designed so you can install and start running it right away. If you are starting a project that will go into production one day, there are a few things you should be sure to check:
 
-- [ ] **Update the shortname.** The `shortname` option in `app.js` is used for the database name (unless another is given in the `@apostrophecms/db` module). You should change this to an appropriate project name before you start adding any users or content you would like to keep.
+- [ ] **Update the shortname.** If you installed this kit using the CLI, you can skip this step as the tool did it for you. The `shortname` option in `app.js` is used for the database name (unless another is given in the `@apostrophecms/db` module). You should change this to an appropriate project name before you start adding any users or content you would like to keep.
 - [ ] **Update the Express.js session secret.** The secret is set to `undefined` initially in the `modules/@apostrophecms/express/index.js` file. You should update this to a unique string.
 - [ ] **Decide if you want hot reloading on.** This boilerplate uses nodemon to restart the app when files are changed. In `modules/@apostrophecms/asset/index.js` there is an option enabled to refresh the browser on restart. If you like this, do nothing. If you don't, remove the option or set it to `false`. The option has no effect when the app is in production.
 - [ ] **Update the `className` options in `app.js`.** This option is set for core widget types to provide CSS styling hooks. It is namespaced with `bp-` for "boilerplate." You will likely want to update that to match your general CSS class naming practices.
