@@ -83,7 +83,7 @@ This starter kit is designed so you can install and start running it right away.
 
 - [ ] **Update the shortname.** This step can be skipped if the kit was installed using the CLI tool as it does this for you. The `shortname` option in `app.js` is used for the database name (unless another is given in the `@apostrophecms/db` module). You should change this to an appropriate project name before you start adding any users or content you would like to keep.
 - [ ] **Update the Express.js session secret.** The secret is set to `undefined` initially in the `modules/@apostrophecms/express/index.js` file. You should update this to a unique string.
-- [ ] **Decide if you want hot reloading on.** This starter kite uses nodemon to restart the app when files are changed. In `modules/@apostrophecms/asset/index.js` there is an option enabled to refresh the browser on restart. If you like this, do nothing. If you don't, remove the option or set it to `false`. The option has no effect when the app is in production.
+- [ ] **Decide if you want hot reloading on.** This starter kit uses nodemon to restart the app when files are changed. In `modules/@apostrophecms/asset/index.js` there is an option enabled to refresh the browser on restart. If you like this, do nothing. If you don't, remove the option or set it to `false`. The option has no effect when the app is in production.
 
 ## Apostrophecms module extensions
 The below Apostrophecms extensions have been included within this theme's main apostrophecms `app.js` file.
