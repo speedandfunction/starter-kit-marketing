@@ -7,12 +7,29 @@ A starter kit for building marketing-themed websites. Add hero blocks, feature l
 
 ## Get started
 
-Install dependencies: `npm install`
+### Method 1
+1. Install the project using the [Apostrophe CLI tool]() using:
+   ``` sh
+   apos create my-project --starter=marketing
+   ```
+2. Start the site using:
+   ``` sh
+   npm run dev
+   ```
+3. Login using the credentials created during project creation - note that the username is `admin`
 
-## Create Admin user
-```bash
-node app @apostrophecms/user:add admin admin
-```
+### Method 2
+1. Clone the template locally. You can use the GitHub desktop app or the CLI
+2. Install dependencies using: `npm install`
+3. Create Admin user
+   ```bash
+   node app @apostrophecms/user:add admin admin
+   ```
+4. Strat the site using:
+   ``` sh
+   npm run dev
+   ```
+5. Login using the credentials just created - note that the username is `admin`
 
 ## Theming
 
