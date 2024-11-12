@@ -69,6 +69,8 @@ require('apostrophe')({
       options: {
         ignoreNoCodeWarning: true
       }
-    }
+    },
+    // Use Vite bundling for the project
+    '@apostrophecms/vite': {}
   }
 });
