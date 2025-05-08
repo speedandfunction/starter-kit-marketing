@@ -10,15 +10,22 @@ export default {
     className: 'img-fluid'
   },
   fields: {
-    add: {
-      _image: {
-        type: 'relationship',
-        withType: '@apostrophecms/image',
-        label: 'Image',
-        required: true,
-        max: 1
-      },
-      ...aosSchema
-    }
+    _image: {
+      type: 'relationship',
+      label: 'apostrophe:image',
+      max: 1,
+      required: true,
+      withType: '@apostrophecms/image'
+    },
+    width: {
+      type: 'range',
+      label: 'apostrophe:imageWidth',
+      help: 'apostrophe:imageWidthHelp',
+      min: 5,
+      max: 100,
+      step: 5,
+      def: 100
+    },
+    ...aosSchema
   }
 };
