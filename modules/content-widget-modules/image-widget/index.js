@@ -17,15 +17,6 @@ export default {
       required: true,
       withType: '@apostrophecms/image'
     },
-    width: {
-      type: 'range',
-      label: 'apostrophe:imageWidth',
-      help: 'apostrophe:imageWidthHelp',
-      min: 5,
-      max: 100,
-      step: 5,
-      def: 100
-    },
     ...aosSchema
   }
 };
