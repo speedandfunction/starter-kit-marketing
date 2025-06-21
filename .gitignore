@@ -17,3 +17,4 @@ node_modules
 .jshintrc
 .env
 .DS_Store
+docker-compose.yml
