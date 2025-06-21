@@ -66,7 +66,9 @@
     "eslint-config-apostrophe": "^5.0.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-storybook": "^9.0.12",
+    "memfs": "^4.17.2",
     "nodemon": "^3.1.10",
+    "path-browserify": "^1.0.1",
     "storybook": "^9.0.12"
   },
   "eslintConfig": {

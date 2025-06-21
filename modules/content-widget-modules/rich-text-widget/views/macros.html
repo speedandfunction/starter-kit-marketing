@@ -1,0 +1,11 @@
+{% macro richText(animation, content, isAposArea=false) %}
+<section data-aos="{{ animation }}" class="container widget-my-spacing">
+  <div class="rich-text">
+    {% if isAposArea %}
+      {% area content.widget, content.field %}
+    {% else %}
+      {{ content | safe }}
+    {% endif %}
+  </div>
+</section>
+{% endmacro %}
