@@ -18,3 +18,5 @@ node_modules
 .env
 .DS_Store
 docker-compose.yml
+*storybook.log
+storybook-static
